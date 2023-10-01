@@ -68,7 +68,7 @@ X_test = scaler.transform(X_test)
 # -----------------------------------------------------------------------------
 
 # Load the model
-model = keras.models.load_model(f'GridSearchResults/{Serie}.h5')
+model = keras.models.load_model(f'RandomSearchResults/{Serie}.h5')
 
 # Implement the prediction method
 y_pred = model.predict(X_test)

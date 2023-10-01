@@ -135,7 +135,7 @@ for Serie in l_Serie:
     model = build_model(**rnd_search_cv.best_params_)
 
     # Checkpoint functions to recover the best model
-    checkpoint_cb = keras.callbacks.ModelCheckpoint(f'GridSearchResults/{Serie}.h5', save_best_only=True)
+    checkpoint_cb = keras.callbacks.ModelCheckpoint(f'RandomSearchResults/{Serie}.h5', save_best_only=True)
     early_stopping_cb = keras.callbacks.EarlyStopping(patience=10,restore_best_weights=True)
 
     # Train the model

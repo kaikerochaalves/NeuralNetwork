@@ -57,7 +57,7 @@ X_test = scaler.transform(X_test)
 # -----------------------------------------------------------------------------
 
 # Load the model
-model = keras.models.load_model(f'GridSearchResults/{Serie}.h5')
+model = keras.models.load_model(f'RandomSearchResults/{Serie}.h5')
 
 # Implement the prediction method
 y_pred = model.predict(X_test)
@@ -120,7 +120,7 @@ X_train = scaler.fit_transform(X_train, y_train)
 X_test = scaler.transform(X_test)
 
 # -----------------------------------------------------------------------------
-# Executing the Grid-Search for the TAIEX time series
+# Executing the Random-Search for the TAIEX time series
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
@@ -128,7 +128,7 @@ X_test = scaler.transform(X_test)
 # -----------------------------------------------------------------------------
 
 # Load the model
-model = keras.models.load_model(f'GridSearchResults/{Serie}.h5')
+model = keras.models.load_model(f'RandomSearchResults/{Serie}.h5')
 
 # Implement the prediction method
 y_pred = model.predict(X_test)
