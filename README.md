@@ -37,3 +37,11 @@ The file "[SP500_Simulations.py](https://github.com/kaikerochaalves/NeuralNetwor
 The file "[TAIEX_RandomSearch.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/d2cccf91814ccba139ef1a3b59c519c022291952/TAIEX_RandomSearch.py)" runs the Random Search for the TAIEX dataset and returns the results for the best simulations.
 
 The file "[TAIEX_Simulations.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/d2cccf91814ccba139ef1a3b59c519c022291952/TAIEX_SimulationBestModel.py)" runs the simulations for TAIEX time series and returns the results considering the given hyperparameters.
+
+The file "[SolarPanelAlice_RandomSearch.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/180292c3d8e9247d550efd8105bd85e92bce4898/SolarPanelAlice_RandomSearch.py)" runs the Random Search for two solar energy datasets for Alice solar station and returns the results for the best simulations.
+
+The file "[SolarPanelAlice_SimulationBestModel.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/180292c3d8e9247d550efd8105bd85e92bce4898/SolarPanelAlice_SimulationBestModel.py)" runs the simulations for two solar energy datasets for Alice solar station and returns the results for the best simulations.
+
+The file "[SolarPanelYulara_RandomSearch.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/180292c3d8e9247d550efd8105bd85e92bce4898/SolarPanelYulara_RandomSearch.py)" runs the Random Search for two solar energy datasets for Yulara solar station and returns the results for the best simulations.
+
+The file "[SolarPanelYulara_SimulationBestModel.py](https://github.com/kaikerochaalves/NeuralNetwork/blob/180292c3d8e9247d550efd8105bd85e92bce4898/SolarPanelYulara_SimulationBestModel.py)" runs the simulations for two solar energy datasets for Yulara solar station and returns the results for the best simulations.
